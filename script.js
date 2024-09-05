@@ -1,8 +1,9 @@
-const profileImages = document.querySelectorAll('.profile-image');
-const accountPage = document.querySelector('.account-page');
+const button = document.querySelector("edit-profile");
+const box = document.querySelector("box")
 
-profileImages.forEach(image => {
-    image.addEventListener('click', () => {
-        accountPage.style.display = 'block';
-    });
+button.addEventListener('click', () =>
+{
+    box.style.backgroundColor = 'lightblue';
+    box.style.width = '100px';
+    box.style.height = '100px';
 });
