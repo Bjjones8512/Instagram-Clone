@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Multigram</title>
-  </head>
-  <body>
-    <h1>Account Page</h1>
-    <header class="account-header">
-      <div class="profile-picture">
-          <img src=".\Instagram-Clone\Account photos\Profile Pic.jpg" alt="Profile Picture">
-      </div>
-      <div class="user-info">
-          <h2 class="username">Group 5</h2>
-          <p class="bio">Blake, Clement, and Luis are awesome.</p>
-          <div class="stats">
-              <span><strong>50</strong> posts</span>
-              <span><strong>1000</strong> followers</span>
-              <span><strong>500</strong> following</span>
-          </div>
-          <button class="edit-profile">Edit Profile</button>
-      </div>
-      <div class="box"></div>
-  </header>
-  <section class="post-flexbox">
-      <img src=".\Instagram-Clone\Account photos\Post 1.jpg" alt="Post 1">
-      <img src=".\Instagram-Clone\Account photos\Post 2.jpg" alt="Post 2">
-      <img src=".\Instagram-Clone\Account photos\Post 3.jpg" alt="Post 3">
-      <img src=".\Instagram-Clone\Account photos\Post 4.jpg" alt="Post 4">
-  </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Instagram Clone</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </nav>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- Header Section with User Info -->
+    <header class="account-header">
+        <div class="profile-picture">
+            <img src=".\Account photos\Profile Pic.jpg" alt="Profile Picture">
+        </div>
+        <div class="user-info">
+            <h2 class="username">Patty Mahomeboy/h2>
+            <p class="bio">the person who will save my fantasy team</p>
+            <div class="stats">
+                <span><strong>50</strong> posts</span>
+                <span><strong>1000</strong> followers</span>
+                <span><strong>500</strong> following</span>
+            </div>
+            <button class="edit-profile">Edit Profile</button>
+        </div>
+    </header>
+
+    <!-- Wrapped Row of Images -->
+    <section class="post-grid">
+        <!-- Each image will represent a post -->
+        <img src=".\Account photos\Post 1.jpg" alt="Post 1">
+        <img src=".\Account photos\Post 2.jpg" alt="Post 2">
+        <img src=".\Account photos\Post 3.jpg" alt="Post 3">
+        <img src=".\Account photos\Post 4.jpg" alt="Post 4">
+        <!-- Repeat as necessary for more images -->
+    </section>
+</body>
 </html>

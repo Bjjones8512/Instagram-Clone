@@ -1,9 +1,9 @@
-const button = document.querySelector("edit-profile");
-const box = document.querySelector("box")
+const profileImages = document.querySelectorAll('.profile-image');
+const accountPage = document.querySelector('.account-page');
 
-button.addEventListener('click', () =>
-{
-    box.style.backgroundColor = 'lightblue';
-    box.style.width = '100px';
-    box.style.height = '100px';
+profileImages.forEach(image => {
+    image.addEventListener('click', () => {
+        // For now, just show the same account page when clicked
+        accountPage.style.display = 'block';
+    });
 });
