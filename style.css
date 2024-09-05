@@ -58,3 +58,14 @@ input {
   text-decoration: none;
   color: white;
 }
+
+.main-content{
+  width: 400px;
+  height: 100vh;
+  background-color: black;
+}
+
+.logo-feed{
+  width: 3rem;
+  background-color: white;
+}
