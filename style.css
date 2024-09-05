@@ -70,6 +70,74 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: flex-start;
+}
+
+.post-flex img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  flex: 0 1 200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 15rem;
+}
+
+section {
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login input {
+  border-radius: 2px;
+  height: 2.5rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border: lightgray 1px solid;
+  font-size: 0.85rem;
+  padding: 0.9rem;
+  text-overflow: ellipsis;
 }
 
 .post-grid {
@@ -83,4 +151,65 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+.main-content{
+  width: 400px;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+.logo-feed{
+  width: 6rem;
+  background-color: white;
+}
+
+.feed-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+.icon img{
+  border-radius: 2rem;
+}
+
+.icons{
+  margin: 1rem;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-info > img{
+  background-color: white;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.profile-info{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.6rem;
+}
+
+.feed-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.img-container{
+ display: flex;
+ justify-content: center;
+ background-color: white;
+}
+
+.footer-content{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
