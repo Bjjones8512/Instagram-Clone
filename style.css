@@ -96,7 +96,7 @@ body {
   align-items: center;
 }
 
-.logo img {
+.logo img{
   width: 15rem;
 }
 
@@ -140,4 +140,65 @@ section {
 #login-btn a {
   text-decoration: none;
   color: white;
+}
+
+.main-content{
+  width: 400px;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+.logo-feed{
+  width: 6rem;
+  background-color: white;
+}
+
+.feed-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+.icon img{
+  border-radius: 2rem;
+}
+
+.icons{
+  margin: 1rem;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-info > img{
+  background-color: white;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.profile-info{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.6rem;
+}
+
+.feed-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.img-container{
+ display: flex;
+ justify-content: center;
+ background-color: white;
+}
+
+.footer-content{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
